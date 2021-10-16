@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+/*Header*/
+#header__container__container{
+    margin-top: 10px;
+}
+
+#header__container__container__navbarSupportedContent{
+    margin-right: 10%;
+}
+
+#header__container__container{
+    display: flex;
+    flex-direction: row;
+}
+
+#getStartedButton{
+    background-color: #5200FF;
+    border: #5200FF;
+    margin-top: 20px;
+    width: 130px;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+#firstPageContainer{
+    width: 100%;
+    background-color: #212529;
+}
+
+#firstPage{
+    display: flex;
+    flex-direction: column;
+    max-width: 1305px;
+    padding: 0px;
+}
+
+#firstPage__leftContainer{
+    align-items: center;
+    margin-top: 150px;
+}
+
+#firstPage__leftContainer h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+#firstPage__leftContainer h2{
+    color: #68717A;
+    margin-top: 16px;
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#firstPage__rightContainer{
+    margin-top: 60px;
+    margin-bottom: 150px;
+}
+
+#firstPageBottomContainer{
+    width: 100%;
+    height: 150px;
+    background-color: #212529;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#firstPageBottomContainer__leftContainer{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+}
+
+#firstPage__rightContainer div picture img{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#firstPage__rightContainer div picture{
+    
+}
+
+#firstPage__centerContainer{
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    position: absolute;
+}
+
+#firstPage__bottomContainer{
+    background-color: white;
+    color: black;
+    top: 625px;
+    position: absolute;
+    height: 150px;
+}
+
+#firstPage__bottomContainer .row{
+    width: 100%;
+    margin-left: 15%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+}
+
+#firstPage__bottomContainer div h1{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+#firstPage__bottomContainer div h2{
+    color: #68717A;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
