@@ -135,3 +135,51 @@ main{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
 }
+
+#secondPage__container{
+    display: flex;
+    margin-bottom: 90px;
+}
+
+#secondPage__title{
+    margin-top: 100px;
+}
+
+#secondPage__title h1{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+#secondPage__container__leftContainer{
+    margin-top: 50px;
+}
+
+#secondPage__container__leftContainer h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#secondPage__container__leftContainer h2{
+    font-family: 'Inter', sans-serif;
+    color: #68717A;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+
+#secondPage__container__rightContainer picture img{
+    width: 420px;
+    height: 440px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#takeALookButton{
+    margin-top: 30px;
+    background-color: #5200FF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
