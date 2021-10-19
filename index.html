@@ -196,13 +196,13 @@
 
       <!--4th Page-->
       <div id="fourthPage" class="container-fluid">
-        <div class="fourthPage__title">
+        <div id="fourthPage__title" class="col-11 offset-1 col-xl-4 offset-xl-2">
           <h1>Testimonials</h1>
         </div>
-        <div id="fourthPage__carouselTestimonials" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+        <div id="fourthPage__carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div id="fourthPage__carouselTestimonials__first" class="carousel-item active">
-              <div id="fourthPage__carouselTestimonials__first__container" class="container-fluid">
+            <div id="fourthPage__carouselTestimonials__first" class="carousel-item active" data-bs-interval="false">
+              <div id="fourthPage__carouselTestimonials__first__container" class="col-xl-8 offset-xl-2 container-fluid">
                 <section id="fourthPage__carouselTestimonials__first__container__leftContainer" class="container">
                   <div id="fourthPage__carouselTestimonials__first__container__leftContainer__data">
                     <h1>Polina Kuzina</h1>
@@ -218,8 +218,8 @@
                 </picture>
               </div>
             </div>
-            <div id="fourthPage__carouselTestimonials__second" class="carousel-item">
-              <div id="fourthPage__carouselTestimonials__second__container" class="container-fluid">
+            <div id="fourthPage__carouselTestimonials__second" class="carousel-item" data-bs-interval="false">
+              <div id="fourthPage__carouselTestimonials__second__container" class="col-xl-8 offset-xl-2 container-fluid">
                 <section id="fourthPage__carouselTestimonials__second__container__leftContainer" class="container">
                   <div id="fourthPage__carouselTestimonials__second__container__leftContainer__data">
                     <h1>Polina Kuzina</h1>
@@ -231,12 +231,12 @@
                   </div>
                 </section>
                 <picture id="fourthPage__carouselTestimonials__second__container__rightContainer" class="container">
-                  <img src="assets/fourth_page_first_testimonial.jpg" alt="">
+                  <img src="assets/fourth_page_second_testimonial.jpg" alt="">
                 </picture>
               </div>
             </div>
-            <div id="fourthPage__carouselTestimonials__third" class="carousel-item">
-              <div id="fourthPage__carouselTestimonials__third__container" class="container-fluid">
+            <div id="fourthPage__carouselTestimonials__third" class="carousel-item" data-bs-interval="false">
+              <div id="fourthPage__carouselTestimonials__third__container" class=" col-xl-8 offset-xl-2 container-fluid">
                 <section id="fourthPage__carouselTestimonials__third__container__leftContainer" class="container">
                   <div id="fourthPage__carouselTestimonials__third__container__leftContainer__data">
                     <h1>Polina Kuzina</h1>
@@ -248,15 +248,19 @@
                   </div>
                 </section>
                 <picture id="fourthPage__carouselTestimonials__third__container__rightContainer" class="container">
-                  <img src="assets/fourth_page_first_testimonial.jpg" alt="">
+                  <img src="assets/fourth_page_third_testimonial.jpg" alt="">
                 </picture>
               </div>
             </div>
-            <button id="fourthPage__carouselTestimonials__nextButton" class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
       <!--Companies Section-->

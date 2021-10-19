@@ -368,3 +368,138 @@ main{
     margin-top: 50px;
     margin-left: 50px;
 }
+
+#fourthPage{
+    padding: 0;
+}
+
+#fourthPage__title{
+    margin-top: 100px;
+}
+
+#fourthPage__title h1{
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+#fourthPage__carouselTestimonials{
+    margin-top: 100px;
+}
+
+#fourthPage__carouselTestimonials__first__container{
+    display: flex;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+#fourthPage__carouselTestimonials__first__container__leftContainer{
+    padding: 0;
+}
+
+#fourthPage__carouselTestimonials__first__container__leftContainer__data h1{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+#fourthPage__carouselTestimonials__first__container__leftContainer__data h2{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #68717A;
+}
+
+#fourthPage__carouselTestimonials__first__container__leftContainer__opinion{
+    margin-top: 100px;
+}
+
+#fourthPage__carouselTestimonials__first__container__leftContainer__opinion h1{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+#fourthPage__carouselTestimonials__first__container__rightContainer img{
+    width: 450px;
+    height: auto;
+}
+
+#fourthPage__carouselTestimonials__second__container{
+    display: flex;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+#fourthPage__carouselTestimonials__second__container__leftContainer{
+    padding: 0;
+}
+
+#fourthPage__carouselTestimonials__second__container__leftContainer__data h1{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+#fourthPage__carouselTestimonials__second__container__leftContainer__data h2{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #68717A;
+}
+
+#fourthPage__carouselTestimonials__second__container__leftContainer__opinion{
+    margin-top: 100px;
+}
+
+#fourthPage__carouselTestimonials__second__container__leftContainer__opinion h1{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+#fourthPage__carouselTestimonials__second__container__rightContainer img{
+    width: 450px;
+    height: auto;
+}
+
+#fourthPage__carouselTestimonials__third__container{
+    display: flex;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+#fourthPage__carouselTestimonials__third__container__leftContainer{
+    padding: 0;
+}
+
+#fourthPage__carouselTestimonials__third__container__leftContainer__data h1{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+#fourthPage__carouselTestimonials__third__container__leftContainer__data h2{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #68717A;
+}
+
+#fourthPage__carouselTestimonials__third__container__leftContainer__opinion{
+    margin-top: 100px;
+}
+
+#fourthPage__carouselTestimonials__third__container__leftContainer__opinion h1{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+#fourthPage__carouselTestimonials__third__container__rightContainer img{
+    width: 450px;
+    height: auto;
+}
+
+/*opacity: 0;
+cursor-events:none;
