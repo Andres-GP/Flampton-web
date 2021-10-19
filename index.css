@@ -146,7 +146,7 @@ main{
 }
 
 #secondPage__title h1{
-    font-size: 20px;
+    font-size: 22px;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
 }
@@ -164,7 +164,7 @@ main{
 #secondPage__container__leftContainer h2{
     font-family: 'Inter', sans-serif;
     color: #68717A;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 30px;
     margin-top: 50px;
 }
@@ -182,4 +182,111 @@ main{
     background-color: #5200FF;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+}
+
+#thirdPage{
+    padding: 0;
+}
+
+#thirdPage__title{
+    margin-top: 100px;
+}
+
+#thirdPage__title h2{
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+#thirdPage__specialties{
+    padding: 0;
+    margin-top: 40px;
+}
+
+#thirdPage__specialties__titles{
+    padding: 0;
+    display: flex;
+}
+
+#thirdPage__specialties__titles h2{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+#thirdPage__specialties__indicatorSection{
+    display: flex;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#thirdPage__specialties__indicatorSection__gray{
+    width: 70%;
+    height: 5px;
+    background-color: #F3F3F3;
+    z-index: 1;
+}
+
+#thirdPage__specialties__indicatorSection__purple1{
+    width: 65%;
+    height: 5px;
+    background-color: #5200FF;
+    z-index: 2;
+}
+
+#thirdPage__specialties__indicatorSection__purple2{
+    width: 65%;
+    height: 5px;
+    background-color: #5200FF;
+    z-index: 2;
+}
+
+#thirdPage__specialties__indicatorSection__purple3{
+    width: 65%;
+    height: 5px;
+    background-color: #5200FF;
+    z-index: 2;
+}
+
+#thirdPage__carouselProyects{
+    margin-top: 30px;
+}
+
+#thridPage__carouselProyects__graphicDesingProyect__container{
+    padding: 0;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#thridPage__carouselProyects__graphicDesingProyect__container__images{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#thridPage__carouselProyects__graphicDesingProyect__container__images img{
+    width: 240px;
+    height: auto;
+}
+
+#thridPage__carouselProyects__graphicDesingProyect__container__text{
+    width: 50%;
+    padding: 0;
+}
+
+#thridPage__carouselProyects__graphicDesingProyect__container__text h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+#thridPage__carouselProyects__graphicDesingProyect__container__text h2{
+    font-family: 'Inter', sans-serif;
+    color: #68717A;
+    font-size: 15px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
