@@ -1,0 +1,36 @@
+@media(max-width:1600px){
+    /*1st Page*/
+    #firstPage__bottomContainer .row{
+        margin-left: 17%;
+    }
+}
+
+@media(max-width:1450px){
+    /*1st Page*/
+    #firstPage__bottomContainer .row{
+        margin-left: 14%;
+    }
+}
+
+@media(max-width:1400px){
+    /*Header*/
+    #header__container__container{
+        margin-left:  0%;
+        margin-right: 3%;
+    }
+
+    /*1st Page*/
+
+}
+
+@media(max-width:1390px){
+    /*1st Page*/
+    #firstPage__bottomContainer .row{
+        margin-left: 22%;
+    }
+}
+
+
+
+
+
