@@ -23,44 +23,46 @@
   <body>
 
     <!--Header-->
-    
-    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark ">
-      <div class="container">
-        <div id="header__container__container" class="container-fluid">
-          <a class="navbar-brand" href="#">Flampton</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="header__container__container__navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link">Testimonals
-                </a>
-              </li>
-            </ul>
+    <header class="navbar navbar-expand-md navbar-dark bd-navbar">
+      <nav id="header" class="navbar navbar-expand-lg navbar-dark container-xxl flex-wrap flex-md-nowrap bg-dark">
+        <div class="container">
+          <div id="header__container__container" class="container-fluid">
+            <a class="navbar-brand" href="#">Flampton</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="header__container__container__navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Testimonals
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>  
+      </nav>  
+    </header>
 
     <!--Main-->
 
     <main>
         <!--1st Page-->
-        <div id="firstPageContainer">
+      <div id="firstPageContainerBarckground" class="bg-dark">
+        <div id="firstPageContainer" class="container-xxl my-md-4 bd-layout bg-dark">
           <div id="firstPage" class="container-fluid bg-dark">
             
             <div id="firstPage__firstPageRow" class="row aling-items-center">
-              <div id="firstPage__leftContainer" class="col-10 offset-1 col-md-5 offset-md-1 col-lg-4 offset-lg-2 col-xl-5 offset-xl-1">
+              <article id="firstPage__leftContainer" class="col-10 offset-1 col-md-5 offset-md-1 col-lg-5 offset-lg-1 col-xl-5 offset-xl-1">
                 <h1>It begins with ideas.<br>
                     Ideas based in purpose</h1>
                 <h2>All neurons are electrically excitable, due to maintenance of
@@ -68,24 +70,25 @@
                     metabolically driven ion pumps.
                 </h2>
                 <button type="button" class="btn btn-primary" id="getStartedButton">Get Started</button>
-              </div>
-              <div id="firstPage__rightContainer" class="col-12 col-md-6 col-lg-5 ">
-                <div class="row">
+              </article>
+              <div id="firstPage__rightContainer" class="col-12 col-md-4 col-lg-5 col-xl-5">
+                <section class="row">
                   <picture>
-                    <img src="assets/first_page_image.svg" alt="">
-                    <source>
+                    <img src="assets/first_page_image.svg" alt="Developer working">
+                    <source> 
                   </picture>
-                </div>
+                </section>
               </div>
             </div>
               <div id="firstPage__bottomContainer" class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
-                <div class="row">
+                <section class="row">
                   <h1>Got a cool idea?</h1>
                   <h2>Let’s work together, contact us!</h2>
-                </div>
+                </section>
               </div>
           </div>
         </div>
+      </div>
 
         <section id="firstPageBottomContainer">
           <div id="firstPageBottomContainer__leftContainer"></div>

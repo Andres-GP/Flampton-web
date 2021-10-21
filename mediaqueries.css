@@ -18,16 +18,31 @@
         margin-left:  0%;
         margin-right: 3%;
     }
-
-    /*1st Page*/
-
 }
 
 @media(max-width:1390px){
     /*1st Page*/
     #firstPage__bottomContainer .row{
-        margin-left: 22%;
+        margin-left: 20%;
     }
+}
+
+@media(max-width:1200px){
+    /*1st Page*/
+    #firstPage__rightContainer section picture img{
+        width: 400px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    #firstPage__bottomContainer{
+        display: none;
+    }
+    #firstPageBottomContainer{
+        display: none;
+    }
+
 }
 
 

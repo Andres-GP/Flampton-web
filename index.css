@@ -9,22 +9,23 @@ main{
 }
 
 /*Header*/
-#header__container__container{
-    margin-top: 10px;
-}
-
-
-#header__container__container{
-    display: flex;
-    flex-direction: row;
+.bd-navbar{
+    background-color: #212529;
 }
 
 #header__container__container{
     margin-left: 7%;
     margin-right: 9%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
 }
 
 /*1st Page*/
+
+.bd-layout{
+    background-color: #212529;
+}
 
 #getStartedButton{
     background-color: #5200FF;
@@ -43,19 +44,18 @@ main{
 
 #firstPage{
     display: flex;
-    flex-direction: column;
     max-width: 1305px;
     padding: 0px;
 }
 
 #firstPage__firstPageRow{
-    margin: 0px;
+    margin-top: -50px;
     overflow-y: none;
 }
 
 #firstPage__leftContainer{
     align-items: center;
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 #firstPage__leftContainer h1{
@@ -75,15 +75,15 @@ main{
 }
 
 #firstPage__rightContainer{
-    margin-top: 60px;
-    margin-bottom: 150px;
+    margin-top:30px;
+    margin-bottom: 129px;
 }
 
 #firstPageBottomContainer{
     width: 100%;
-    height: 150px;
+    height: 130px;
     background-color: #212529;
-    margin-top: -150px;
+    margin-top: -129px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -95,14 +95,11 @@ main{
     width: 25%;
 }
 
-#firstPage__rightContainer div picture img{
+#firstPage__rightContainer section picture img{
     margin-left: 0px;
     margin-right: 0px;
 }
 
-#firstPage__rightContainer div picture{
-    
-}
 
 #firstPage__centerContainer{
     width: 100%;
@@ -114,9 +111,9 @@ main{
 #firstPage__bottomContainer{
     background-color: white;
     color: black;
-    top: 625px;
+    top: 608px;
     position: absolute;
-    height: 150px;
+    height: 130px;
 }
 
 #firstPage__bottomContainer .row{
@@ -128,15 +125,15 @@ main{
     justify-content: flex-start;
 }
 
-#firstPage__bottomContainer div h1{
+#firstPage__bottomContainer section h1{
     color: black;
     font-size: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
 }
 
-#firstPage__bottomContainer div h2{
+#firstPage__bottomContainer section h2{
     color: #68717A;
     font-size: 17px;
     margin-bottom: 40px;
