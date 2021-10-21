@@ -56,10 +56,6 @@ main{
 
 /*1st Page*/
 
-.bd-layout{
-    background-color: #212529;
-}
-
 #getStartedButton{
     background-color: #5200FF;
     border: #5200FF;
@@ -189,6 +185,8 @@ main{
     font-weight: 400;
 }
 
+/*Second Page*/
+
 #secondPage__container{
     display: flex;
     margin-bottom: 90px;
@@ -227,7 +225,14 @@ main{
     width: 420px;
     height: 440px;
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 70px;
+    transition: transform 300ms ease-in-out;
+}
+
+
+#secondPage__container__rightContainer picture img:hover{
+    transform: scale(1.02) translateY(3px);
+    transition: transform 300ms ease-in-out;
 }
 
 #takeALookButton{

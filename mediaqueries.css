@@ -50,6 +50,14 @@
         display: none;
     }
 
+
+    /*2nd Page*/
+
+    #secondPage__container__rightContainer picture img{
+        width: 350px;
+        height: auto;
+    }
+
 }
 
 @media(max-width:992px){
@@ -76,6 +84,34 @@
         height: auto;
         margin-left: 5px;
         margin-top: 50px;
+    }
+
+    /*2nd Page*/
+
+    #secondPage__container__rightContainer picture img{
+        width: 280px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 180px;
+    }
+
+    #secondPage__title h1{
+        margin-left: -15px;
+    }
+
+    #secondPage__container__leftContainer h1{
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+
+    #secondPage__container__leftContainer h2{
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+
+    #takeALookButton{
+        margin-left: -15px;
+        margin-top: 20px;
     }
 }
 
@@ -129,6 +165,13 @@
     }
 
     #firstPage__rightContainer section picture img{
+        display: none;
+    }
+
+    /*2nd Page*/
+
+
+    #secondPage__container__rightContainer picture img{
         display: none;
     }
 
