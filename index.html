@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Fav Icon-->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png">
 
-    <link rel="shortcut icon" href="assets/" type="image/png">
+    <!--AOS(Animations)-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -27,23 +29,38 @@
       <nav id="header" class="navbar navbar-expand-lg navbar-dark container-xxl flex-wrap flex-md-nowrap bg-dark">
         <div class="container">
           <div id="header__container__container" class="container-fluid">
-            <a class="navbar-brand" href="#">Flampton</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <a id="header__container__container__logo" class="navbar-brand" href="#"
+               data-aos="fade-down"
+               data-aos-offset="20"
+               data-aos-duration="700"
+               data-aos-delay="500"
+               data-aos-easing="ease-in-out"
+               data-aos-once="true">Flampton</a>
+
+            <!--Desktop Menu-->
             <div class="collapse navbar-collapse" id="header__container__container__navbarSupportedContent">
-              <ul class="navbar-nav ms-auto">
+              <ul class="navbar-nav ms-auto"
+                  data-aos="fade-down"
+                  data-aos-offset="20"
+                  data-aos-duration="700"
+                  data-aos-delay="500"
+                  data-aos-easing="ease-in-out"
+                  data-aos-once="true">
                 <li class="nav-item">
                   <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#secondPage">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Projects</a>
+                  <a class="nav-link" href="#thirdPage__title">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Testimonals
+                  <a class="nav-link" href="#fourthPage__title">Testimonals
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#fifthPage">Contact
                   </a>
                 </li>
               </ul>
@@ -61,19 +78,38 @@
         <div id="firstPageContainer" class="container-xxl my-md-4 bd-layout bg-dark">
           <div id="firstPage" class="container-fluid bg-dark">
             
-            <div id="firstPage__firstPageRow" class="row aling-items-center">
-              <article id="firstPage__leftContainer" class="col-10 offset-1 col-md-5 offset-md-1 col-lg-5 offset-lg-1 col-xl-5 offset-xl-1">
+            <div id="firstPage__firstPageRow" class="row">
+              <article id="firstPage__leftContainer" class="col-10 offset-1 col-md-4 offset-md-2 col-lg-5 offset-lg-1 col-xl-5 offset-xl-1"
+                       data-aos="fade-right"
+                       data-aos-offset="20"
+                       data-aos-duration="900"
+                       data-aos-delay="700"
+                       data-aos-easing="ease-in-out"
+                       data-aos-once="true">
                 <h1>It begins with ideas.<br>
                     Ideas based in purpose</h1>
                 <h2>All neurons are electrically excitable, due to maintenance of
                     voltage gradients across their membranes by means of
                     metabolically driven ion pumps.
                 </h2>
-                <button type="button" class="btn btn-primary" id="getStartedButton">Get Started</button>
+                <button type="button" class="btn btn-primary" id="getStartedButton"
+                        data-aos="fade"
+                        data-aos-offset="20"
+                        data-aos-duration="1000"
+                        data-aos-delay="1700"
+                        data-aos-easing="ease-in-out"
+                        data-aos-once="true">
+                  <a href="#secondPage">Get Started</a>
+                </button>
               </article>
               <div id="firstPage__rightContainer" class="col-12 col-md-4 col-lg-5 col-xl-5">
                 <section class="row">
-                  <picture>
+                  <picture data-aos="fade-left"
+                           data-aos-offset="20"
+                           data-aos-duration="1100"
+                           data-aos-delay="1000"
+                           data-aos-easing="ease-in-out"
+                           data-aos-once="true">
                     <img src="assets/first_page_image.svg" alt="Developer working">
                     <source> 
                   </picture>
@@ -82,8 +118,18 @@
             </div>
               <div id="firstPage__bottomContainer" class="col-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
                 <section class="row">
-                  <h1>Got a cool idea?</h1>
-                  <h2>Let’s work together, contact us!</h2>
+                  <h1 data-aos="fade"
+                      data-aos-offset="20"
+                      data-aos-duration="1100"
+                      data-aos-delay="1000"
+                      data-aos-easing="ease-in-out"
+                      data-aos-once="true">Got a cool idea?</h1>
+                  <h2 data-aos="fade"
+                      data-aos-offset="20"
+                      data-aos-duration="1100"
+                      data-aos-delay="1000"
+                      data-aos-easing="ease-in-out"
+                      data-aos-once="true">Let’s work together, contact us!</h2>
                 </section>
               </div>
           </div>
@@ -322,5 +368,14 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+
+
+    <!--Scripts-->
+
+    <!--AOS(Animations)-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
   </body>
 </html>
