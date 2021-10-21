@@ -242,6 +242,11 @@ main{
     font-weight: 500;
 }
 
+#takeALookButton a{
+    text-decoration: none;
+    color: white;
+}
+
 #thirdPage{
     padding: 0;
 }
