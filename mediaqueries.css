@@ -31,6 +31,62 @@
     #firstPage__bottomContainer .row{
         margin-left: 20%;
     }
+
+    /*3rd Page*/
+    #thridPage__carouselProyects__graphicDesingProyect__container__text{
+        margin-right: 20px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__text h1{
+        margin-left: 50px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__text h2{
+        margin-left: 50px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text{
+        margin-right: 20px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text h1{
+        margin-left: 50px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text h2{
+        margin-left: 50px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text{
+        margin-right: 20px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text h1{
+        margin-left: 50px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text h2{
+        margin-left: 50px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__images img{
+        width: auto;
+        height: 380px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__images img{
+        width: auto;
+        height: 380px;
+    }
+    
+    #thirdPage__carouselProyects__seoProyect__container__images img{
+        width: auto;
+        height: 380px;
+    }
+
+    #thirdPage__specialties__titles{
+        margin-top: 50px;
+    }
 }
 
 @media(max-width:1200px){
@@ -52,13 +108,180 @@
 
 
     /*2nd Page*/
-
     #secondPage__container__rightContainer picture img{
         width: 350px;
         height: auto;
     }
 
+    /*3rd Page*/
+    #thirdPage__specialties{
+        display: none;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__text{
+        margin-right: 0px;
+    }
+    
+    #thridPage__carouselProyects__graphicDesingProyect__container__text h2{
+        margin-top: 20px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text{
+        margin-right: 0px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text h2{
+        margin-top: 20px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text{
+        margin-right: 0px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text h2{
+        margin-top: 20px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container{
+        padding-top: 10px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container{
+        margin-top: 10px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container{
+        margin-top: 10px;
+    }
+
+    #thirdPage__carouselProyects__leftButton{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+
+    #thirdPage__carouselProyects__rightButton{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+
+    
 }
+
+
+@media(max-width:1100px){
+
+    /*3rd Page*/
+    #thirdPageBackground{
+       height: 1160px;  
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__images{
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__images img{
+        margin-top: 30px;
+        width: 70%;
+        height: auto;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__text{
+        width: 100%;
+        text-align: center;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__text h1{
+        margin-left: 0px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__text h2{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    #thirdPage__carouselProyects__softwareServiceProyect__container__images{
+        margin-left: 0px;
+        width: 70%;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__images img{
+        margin-top: 30px;
+        width: 70%;
+        height: auto;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text{
+        width: 100%;
+        text-align: center;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text h1{
+        margin-left: 0px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text h2{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+
+    #thirdPage__carouselProyects__seoProyect__container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__images{
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__images img{
+        margin-top: 30px;
+        width: 70%;
+        height: auto;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text{
+        width: 100%;
+        text-align: center;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text h1{
+        margin-left: 0px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text h2{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+
+    #thirdPage__carouselProyects__rightButton{
+        margin-right: 20px;
+    }
+}
+
 
 @media(max-width:992px){
     /*1st Page*/
@@ -169,12 +392,22 @@
     }
 
     /*2nd Page*/
-
-
     #secondPage__container__rightContainer picture img{
         display: none;
     }
 
+    /*3rd Page*/
+    #thridPage__carouselProyects__graphicDesingProyect__container__text{
+        margin-left: 0px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__text{
+        margin-left: 0px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__text{
+        margin-left: 0px;
+    }
 }
 
 
