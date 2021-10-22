@@ -585,12 +585,16 @@ main{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #B6BDC3;
+    padding-top: 10px;
 }
 
 #fifthPage__container__brands__images{
     margin-top: 50px;
     padding: 0;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 #fifthPage__container__contact{
