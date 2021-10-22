@@ -18,16 +18,163 @@
         margin-left:  0%;
         margin-right: 3%;
     }
-
-    /*1st Page*/
-
 }
 
 @media(max-width:1390px){
+
+    /*Header*/
+    #header__container__container{
+        margin-left: 3vw;
+    }
+
     /*1st Page*/
     #firstPage__bottomContainer .row{
-        margin-left: 22%;
+        margin-left: 20%;
     }
+}
+
+@media(max-width:1200px){
+
+    /*1st Page*/
+    #firstPage__rightContainer section picture img{
+        width: 400px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    #firstPage__bottomContainer{
+        display: none;
+    }
+    #firstPageBottomContainer{
+        display: none;
+    }
+
+
+    /*2nd Page*/
+
+    #secondPage__container__rightContainer picture img{
+        width: 350px;
+        height: auto;
+    }
+
+}
+
+@media(max-width:992px){
+    /*1st Page*/
+    #firstPage__leftContainer{
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+
+    #firstPage__leftContainer h1{
+        margin-left: -15px;
+    }
+
+    #firstPage__leftContainer h2{
+        margin-left: -15px;
+    }
+
+    #firstPage__leftContainer button{
+        margin-left: -15px;
+    }
+
+    #firstPage__rightContainer section picture img{
+        width: 300px;
+        height: auto;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+
+    /*2nd Page*/
+
+    #secondPage__container__rightContainer picture img{
+        width: 280px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 180px;
+    }
+
+    #secondPage__title h1{
+        margin-left: -15px;
+    }
+
+    #secondPage__container__leftContainer h1{
+        margin-left: -15px;
+        margin-top: -10px;
+    }
+
+    #secondPage__container__leftContainer h2{
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+
+    #takeALookButton{
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:768px){
+
+    /*Header*/
+    #header__container__container{
+        margin-left:  none;
+        margin-right: none;
+        justify-content: space-between;
+    }
+
+    #header__container__container{
+        margin-left: none;
+    }
+
+    #header__container__container{
+        align-self: center;
+        justify-content: center;
+    }
+
+    /*1st Page*/
+    #firstPage__leftContainer{
+        margin-top: 90px;
+        margin-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #firstPage__firstPageRow{
+        margin-top: 0px;
+        margin-bottom: -30px;
+    }
+
+    #firstPage__leftContainer h1{
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #firstPage__leftContainer h2{
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    #firstPage__leftContainer button{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    #firstPage__rightContainer section picture img{
+        display: none;
+    }
+
+    /*2nd Page*/
+
+
+    #secondPage__container__rightContainer picture img{
+        display: none;
+    }
+
 }
 
 
