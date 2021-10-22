@@ -581,11 +581,11 @@ main{
 }
 
 #fifthPage__container__brands__title h2{
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #B6BDC3;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #fifthPage__container__brands__images{
@@ -595,6 +595,15 @@ main{
     display: flex;
     justify-content: center;
     align-content: center;
+    padding-bottom: 50px;
+}
+
+#fifthPage__container__brands__images div{
+    padding: 0;
+}
+
+#fifthPage__container__brands__images div img{
+    margin-left: 30%;
 }
 
 #fifthPage__container__contact{
@@ -602,6 +611,83 @@ main{
     padding: 0;
 }
 
+#fifthPage__container__contact__leftContainer{
+    align-items: center;
+    padding: 0;
+}
+
+#fifthPage__container__contact__leftContainer article h1{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+#fifthPage__container__contact__leftContainer article h2{
+    color: #5200FF;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+#fifthPage__container__contact__leftContainer h2{
+
+}
+
+#fifthPage__container__contact__middlePadding{
+    background-color: #F8F9FA;
+    width: 6px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+#fifthPage__container__contact__rightContainer{
+    display: flex;
+}
+
+#fifthPage__container__contact__rightContainer__place article h1{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+#fifthPage__container__contact__rightContainer__place article h2{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #68717A;
+}
+
+#fifthPage__container__contact__rightContainer__contact article h1{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#fifthPage__container__contact__rightContainer__contact article h2{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #68717A;
+}
+
+#footer{
+    margin-top: 40px;
+    height: 80px;
+}
+
+#footer h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
 
 /*opacity: 0;
 cursor-events:none;
