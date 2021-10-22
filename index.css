@@ -509,5 +509,38 @@ main{
     height: auto;
 }
 
+#fifthPage__container{
+    width: 100%;
+}
+
+#fifthPage__container__brands{
+    background-color: #F8F9FA;
+    padding: 0;
+}
+
+#fifthPage__container__brands__title{
+    padding: 0;
+    text-align: center;
+}
+
+#fifthPage__container__brands__title h2{
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #B6BDC3;
+}
+
+#fifthPage__container__brands__images{
+    margin-top: 50px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+#fifthPage__container__contact{
+    display: flex;
+    padding: 0;
+}
+
+
 /*opacity: 0;
 cursor-events:none;
