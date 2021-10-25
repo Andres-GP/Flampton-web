@@ -186,6 +186,80 @@
         margin-right: 15px;
     }
 
+    /*4th Page*/
+
+    #fourthPage__carouselTestimonials{
+        margin-top: 60px;
+    }
+
+    #fourthPage__carouselTestimonials__first__container{
+        flex-direction: column;
+    }
+
+    #fourthPage__carouselTestimonials__first__container__leftContainer{
+        padding: 0;
+        text-align: center;
+    }
+    
+    #fourthPage__carouselTestimonials__first__container__leftContainer__opinion{
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    #fourthPage__carouselTestimonials__first__container__rightContainer{
+        display: none;
+    }
+
+
+
+    #fourthPage__carouselTestimonials__second__container{
+        flex-direction: column;
+    }
+
+    #fourthPage__carouselTestimonials__second__container__leftContainer{
+        padding: 0;
+        text-align: center;
+    }
+    
+    #fourthPage__carouselTestimonials__second__container__leftContainer__opinion{
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    #fourthPage__carouselTestimonials__second__container__rightContainer{
+        display: none;
+    }
+
+
+
+    #fourthPage__carouselTestimonials__third__container{
+        flex-direction: column;
+    }
+
+    #fourthPage__carouselTestimonials__third__container__leftContainer{
+        padding: 0;
+        text-align: center;
+    }
+    
+    #fourthPage__carouselTestimonials__third__container__leftContainer__opinion{
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    #fourthPage__carouselTestimonials__third__container__rightContainer{
+        display: none;
+    }
+
+
+    #fourthPage__carouselTestimonials__rightButton{
+        left:50%;
+        margin-left:-20px;
+        top: 220px;
+    }
+    
     
 }
 
@@ -357,6 +431,15 @@
         margin-left: -15px;
         margin-top: 20px;
     }
+
+    /*4th Page*/
+    #fourthPage__carouselTestimonials__third__container__leftContainer__opinion{
+        margin-bottom: 48px
+    }
+
+    #fourthPage__carouselTestimonials__rightButton{
+        top: 240px;
+    }
 }
 
 @media(max-width:768px){
@@ -428,6 +511,55 @@
 
     #thirdPage__carouselProyects__seoProyect__container__text{
         margin-left: 0px;
+    }
+
+    /*4th Page*/
+    #fourthPage__carouselTestimonials__first__container__leftContainer__opinion{
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 40px;
+    }
+    
+    #fourthPage__carouselTestimonials__second__container__leftContainer__opinion{
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-bottom: 40px;
+    }
+
+    #fourthPage__carouselTestimonials__third__container__leftContainer__opinion{
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    #fourthPage__carouselTestimonials__rightButton{
+        top: 190px;
+    }
+}
+
+@media(max-width:670px){
+
+    /*4th Page*/
+    #fourthPage__carouselTestimonials{
+        height: 300px;
+    }
+
+    #fourthPage__carouselTestimonials__rightButton{
+        top: 230px;
+    }
+}
+
+
+@media(max-width:425px){
+
+    /*4th Page*/
+    #fourthPage__carouselTestimonials{
+        height: 350px;
+    }
+
+    #fourthPage__carouselTestimonials__rightButton{
+        top: 290px;
     }
 }
 
