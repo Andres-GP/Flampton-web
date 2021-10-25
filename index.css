@@ -254,7 +254,6 @@ main{
 #thirdPage__title{
     margin-top: 100px;
     padding-top: 20px;
-    margin-bottom: 50px;
 }
 
 #thirdPage__title h2{
@@ -265,10 +264,7 @@ main{
 
 #thirdPage__specialties{
     padding: 0;
-    margin-left: -85px;
-    margin-top: -560px;
-    z-index: 5;
-    top: 0;
+    margin-top: 40px;
 }
 
 #thirdPage__specialties__titles{
@@ -284,36 +280,33 @@ main{
 
 #thirdPage__specialties__indicatorSection{
     display: flex;
+    margin-top: 10px;
     padding: 0;
 }
 
-#thirdPage__specialties__indicatorSection div button{
-    margin-left: 0px;
-}
-
-
-#thirdPage__specialties__indicatorSection__container{
+#thirdPage__specialties__indicatorSection__gray{
     width: 70%;
     height: 5px;
-    margin-top: -10px;
+    background-color: #F3F3F3;
+    z-index: 1;
 }
 
 #thirdPage__specialties__indicatorSection__purple1{
-    width: 110%;
+    width: 65%;
     height: 5px;
     background-color: #5200FF;
     z-index: 2;
 }
 
 #thirdPage__specialties__indicatorSection__purple2{
-    width: 110%;
+    width: 65%;
     height: 5px;
     background-color: #5200FF;
     z-index: 2;
 }
 
 #thirdPage__specialties__indicatorSection__purple3{
-    width: 110%;
+    width: 65%;
     height: 5px;
     background-color: #5200FF;
     z-index: 2;
@@ -323,18 +316,10 @@ main{
     margin-top: 30px;
 }
 
-#thirdPage__carouselProyects__leftButton{
-    display: none;
-}
-
-#thirdPage__carouselProyects__rightButton{
-    display: none;
-}
-
 #thridPage__carouselProyects__graphicDesingProyect__container{
     padding: 0;
     display: flex;
-    padding-top: 100px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -345,22 +330,20 @@ main{
 }
 
 #thridPage__carouselProyects__graphicDesingProyect__container__images img{
-    width: auto;
-    height: 420px;
-    margin-right: 20px;
+    width: 240px;
+    height: auto;
 }
 
 #thridPage__carouselProyects__graphicDesingProyect__container__text{
     width: 50%;
     padding: 0;
-    margin-right: 50px;
 }
 
 #thridPage__carouselProyects__graphicDesingProyect__container__text h1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 #thridPage__carouselProyects__graphicDesingProyect__container__text h2{
@@ -368,8 +351,8 @@ main{
     color: #68717A;
     font-size: 15px;
     line-height: 30px;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 #thirdPage__carouselProyects__softwareServiceProyect__container{
@@ -386,22 +369,20 @@ main{
 }
 
 #thirdPage__carouselProyects__softwareServiceProyect__container__images img{
-    width: auto;
-    height: 420px;
-    margin-right: 20px;
+    width: 240px;
+    height: auto;
 }
 
 #thirdPage__carouselProyects__softwareServiceProyect__container__text{
     width: 50%;
     padding: 0;
-    margin-right: 50px;
 }
 
 #thirdPage__carouselProyects__softwareServiceProyect__container__text h1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 #thirdPage__carouselProyects__softwareServiceProyect__container__text h2{
@@ -409,8 +390,8 @@ main{
     color: #68717A;
     font-size: 15px;
     line-height: 30px;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 #thirdPage__carouselProyects__seoProyect__container{
@@ -427,22 +408,20 @@ main{
 }
 
 #thirdPage__carouselProyects__seoProyect__container__images img{
-    width: auto;
-    height: 420px;
-    margin-right: 20px;
+    width: 240px;
+    height: auto;
 }
 
 #thirdPage__carouselProyects__seoProyect__container__text{
     width: 50%;
     padding: 0;
-    margin-right: 50px;
 }
 
 #thirdPage__carouselProyects__seoProyect__container__text h1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 #thirdPage__carouselProyects__seoProyect__container__text h2{
@@ -450,8 +429,8 @@ main{
     color: #68717A;
     font-size: 15px;
     line-height: 30px;
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 #fourthPage{
@@ -602,11 +581,11 @@ main{
 }
 
 #fifthPage__container__brands__title h2{
-    font-size: 17px;
+    font-size: 15px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     color: #B6BDC3;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 #fifthPage__container__brands__images{
@@ -616,9 +595,99 @@ main{
     display: flex;
     justify-content: center;
     align-content: center;
+    padding-bottom: 50px;
+}
+
+#fifthPage__container__brands__images div{
+    padding: 0;
+}
+
+#fifthPage__container__brands__images div img{
+    margin-left: 30%;
 }
 
 #fifthPage__container__contact{
     display: flex;
     padding: 0;
 }
+
+#fifthPage__container__contact__leftContainer{
+    align-items: center;
+    padding: 0;
+}
+
+#fifthPage__container__contact__leftContainer article h1{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+#fifthPage__container__contact__leftContainer article h2{
+    color: #5200FF;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+#fifthPage__container__contact__leftContainer h2{
+    
+}
+
+#fifthPage__container__contact__middlePadding{
+    background-color: #F8F9FA;
+    width: 6px;
+    height: 100px;
+    margin-top: 50px;
+}
+
+#fifthPage__container__contact__rightContainer{
+    display: flex;
+}
+
+#fifthPage__container__contact__rightContainer__place article h1{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+#fifthPage__container__contact__rightContainer__place article h2{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #68717A;
+}
+
+#fifthPage__container__contact__rightContainer__contact article h1{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#fifthPage__container__contact__rightContainer__contact article h2{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #68717A;
+}
+
+#footer{
+    margin-top: 40px;
+    height: 80px;
+}
+
+#footer h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+/*opacity: 0;
+cursor-events:none;
