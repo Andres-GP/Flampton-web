@@ -85,7 +85,7 @@
     }
 
     #thirdPage__specialties__titles{
-        margin-top: 50px;
+        margin-top: 20px;
     }
 }
 
@@ -116,6 +116,14 @@
     /*3rd Page*/
     #thirdPage__specialties{
         display: none;
+    }
+
+    #thirdPage__title{
+        margin-bottom: 60px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container{
+        margin-top: 0px;
     }
 
     #thridPage__carouselProyects__graphicDesingProyect__container__text{
@@ -164,6 +172,18 @@
         display: flex;
         justify-content: flex-end;
         margin-right: 30px;
+    }
+
+    #thridPage__carouselProyects__graphicDesingProyect__container__images img{
+        margin-right: 15px;
+    }
+
+    #thirdPage__carouselProyects__softwareServiceProyect__container__images img{
+        margin-right: 15px;
+    }
+
+    #thirdPage__carouselProyects__seoProyect__container__images img{
+        margin-right: 15px;
     }
 
     
@@ -232,6 +252,7 @@
     #thirdPage__carouselProyects__softwareServiceProyect__container__text{
         width: 100%;
         text-align: center;
+        margin-left: 0px;
     }
 
     #thirdPage__carouselProyects__softwareServiceProyect__container__text h1{

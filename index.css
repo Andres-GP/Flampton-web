@@ -264,7 +264,8 @@ main{
 
 #thirdPage__specialties{
     padding: 0;
-    margin-top: 40px;
+    margin-top: -535px;
+    margin-left: -85px;
 }
 
 #thirdPage__specialties__titles{
@@ -280,7 +281,8 @@ main{
 
 #thirdPage__specialties__indicatorSection{
     display: flex;
-    margin-top: 10px;
+    margin-top: -8px;
+    margin-left: -2px;
     padding: 0;
 }
 
@@ -292,21 +294,21 @@ main{
 }
 
 #thirdPage__specialties__indicatorSection__purple1{
-    width: 65%;
+    width: 80%;
     height: 5px;
     background-color: #5200FF;
     z-index: 2;
 }
 
 #thirdPage__specialties__indicatorSection__purple2{
-    width: 65%;
+    width: 80%;
     height: 5px;
     background-color: #5200FF;
     z-index: 2;
 }
 
 #thirdPage__specialties__indicatorSection__purple3{
-    width: 65%;
+    width: 80%;
     height: 5px;
     background-color: #5200FF;
     z-index: 2;
@@ -432,6 +434,16 @@ main{
     margin-top: 50px;
     margin-left: 50px;
 }
+
+#thirdPage__carouselProyects__leftButton{
+    display: none;
+}
+
+#thirdPage__carouselProyects__rightButton{
+    display: none;
+}
+
+/*4th Page*/
 
 #fourthPage{
     padding: 0;
