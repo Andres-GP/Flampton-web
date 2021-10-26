@@ -24,8 +24,12 @@
   </head>
   <body>
 
+    <div id="preloader" class="preloader">
+      <div id="loader"></div>
+    </div>
+
     <!--Header-->
-    <header class="navbar navbar-expand-md navbar-dark bd-navbar">
+    <header id="headerContainer" class="navbar navbar-expand-md navbar-dark bd-navbar">
       <nav id="header" class="navbar navbar-expand-lg navbar-dark container-xxl flex-wrap flex-md-nowrap bg-dark">
         <div class="container">
           <div id="header__container__container" class="container-fluid">
@@ -56,12 +60,10 @@
                   <a class="nav-link" href="#thirdPage__title">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#fourthPage__title">Testimonals
-                  </a>
+                  <a class="nav-link" href="#fourthPage__title">Testimonals</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#fifthPage">Contact
-                  </a>
+                  <a class="nav-link" href="#fifthPage">Contact</a>
                 </li>
               </ul>
             </div>
@@ -171,7 +173,8 @@
                           data-aos-duration="1000"
                           data-aos-delay="1300"
                           data-aos-easing="ease-in-out"
-                          data-aos-once="true"><a href="#thirdPage__title">Take a look at the job</a></button>
+                          data-aos-once="true"><a href="#thirdPage__title">Take a look at the job</a>
+                  </button>
               </article>
               <section id="secondPage__container__rightContainer" class="col-12 col-md-6 col-lg-6 col-xl-6"
                    data-aos="fade-down"
@@ -415,7 +418,7 @@
               <article class="col-xl-6 offset-xl-5 container">
                 <h2>We’re open to creative minds 
                   and collaborations!</h2>
-                <h3>mail@mockmail.com</h3>
+                  <a href="mailto:andresgarciapedreros@gmail.com?" subject="subject text"><h3>mail@mockmail.com</h3></a>
               </article>
             </div>
             <div id="fifthPage__container__contact__middlePadding"
@@ -441,8 +444,8 @@
               <div id="fifthPage__container__contact__rightContainer__contact" class="col-xl-8 container">
                 <article class="container">
                   <h2>Contacts</h2>
-                  <h3>mail@mockmail.com</h3>
-                  <h3>+12 345 678 90 12</h3>
+                  <a href="mailto:andresgarciapedreros@gmail.com?" subject="subject text"><h3>mail@mockmail.com</h3></a>
+                  <a href="tel:+57 3058786788"><h3>+12 345 678 90 12</h3></a>
                 </article>
               </div>
             </div>
@@ -453,7 +456,9 @@
 
     <footer>
       <div id="footer" class="col-xl-2 offset-xl-5 container">
-        <h2>Flampton</h2>
+        <a href="#headerContainer">
+          <h2>Flampton</h2>
+        </a>
       </div>
     </footer>
 
@@ -469,4 +474,10 @@
         AOS.init();
     </script>
   </body>
+
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+  <!--Own Code-->
+  <script src="index.js"></script>
 </html>
