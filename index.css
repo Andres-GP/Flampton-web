@@ -268,7 +268,7 @@ main{
     justify-content: flex-start;
 }
 
-#firstPage__bottomContainer section h1{
+#firstPage__bottomContainer section h2{
     color: black;
     font-size: 20px;
     margin-top: 30px;
@@ -276,7 +276,7 @@ main{
     font-weight: 800;
 }
 
-#firstPage__bottomContainer section h2{
+#firstPage__bottomContainer section h3{
     color: #68717A;
     font-size: 17px;
     margin-bottom: 40px;
@@ -295,7 +295,7 @@ main{
     margin-top: 100px;
 }
 
-#secondPage__title h1{
+#secondPage__title h2{
     font-size: 22px;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
@@ -305,13 +305,13 @@ main{
     margin-top: 50px;
 }
 
-#secondPage__container__leftContainer h1{
+#secondPage__container__leftContainer h2{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 35px;
 }
 
-#secondPage__container__leftContainer h2{
+#secondPage__container__leftContainer h3{
     font-family: 'Inter', sans-serif;
     color: #68717A;
     font-size: 15px;
@@ -456,14 +456,14 @@ main{
     z-index: 200;
 }
 
-#thridPage__carouselProyects__graphicDesingProyect__container__text h1{
+#thridPage__carouselProyects__graphicDesingProyect__container__text h2{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 50px;
     margin-left: 50px;
 }
 
-#thridPage__carouselProyects__graphicDesingProyect__container__text h2{
+#thridPage__carouselProyects__graphicDesingProyect__container__text h3{
     font-family: 'Inter', sans-serif;
     color: #68717A;
     font-size: 15px;
@@ -503,14 +503,14 @@ main{
     z-index: 200;
 }
 
-#thirdPage__carouselProyects__softwareServiceProyect__container__text h1{
+#thirdPage__carouselProyects__softwareServiceProyect__container__text h2{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 50px;
     margin-left: 50px;
 }
 
-#thirdPage__carouselProyects__softwareServiceProyect__container__text h2{
+#thirdPage__carouselProyects__softwareServiceProyect__container__text h3{
     font-family: 'Inter', sans-serif;
     color: #68717A;
     font-size: 15px;
@@ -550,14 +550,14 @@ main{
     z-index: 200;
 }
 
-#thirdPage__carouselProyects__seoProyect__container__text h1{
+#thirdPage__carouselProyects__seoProyect__container__text h2{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 50px;
     margin-left: 50px;
 }
 
-#thirdPage__carouselProyects__seoProyect__container__text h2{
+#thirdPage__carouselProyects__seoProyect__container__text h3{
     font-family: 'Inter', sans-serif;
     color: #68717A;
     font-size: 15px;
@@ -583,7 +583,7 @@ main{
 #fourthPage__title{
     margin-top: 100px;
     padding-top: 30px;
-    margin-bottom: -50px;
+    margin-bottom: -30px;
 }
 
 #fourthPage__title h2{
