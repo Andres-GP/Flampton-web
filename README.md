@@ -1,9 +1,9 @@
 # Flampton Web
 
-GeTogether is a videocall app for everyone made using React, React-native and Typescript. 
+Flampton is a web made with HTML5, CSS3, Javascript, Jquery and Bootstrap
 
 ---
 
-Take a look: https://getogether.netlify.app/
+Take a look: https://andres-gp.github.io/Flampton-web/
 
-![pexels-julia-m-cameron-4145190 1](https://user-images.githubusercontent.com/81189565/152390952-475ab8af-d653-4ef5-b8ad-eb3b113ed451.png)
+![alvaro-reyes-KxVlKiqQObU-unsplash 1](https://user-images.githubusercontent.com/81189565/152391501-1e59a501-518c-4160-99db-f95622207e5c.png)
